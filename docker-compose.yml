@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  pamokos:
+    image: marchyus/pamokos:latest
+    container_name: pamokos
+    restart: unless-stopped
+    volumes:
+      # Mounts your local ./db directory so schedules are saved persistently
+      - ./db:/app/db
+# If Traefik is on a custom Docker network (e.g., 'proxy' or 'web'), uncomment below:
+    # networks:
+    #   - proxy
+    labels:
+      - "traefik.enable=true"
+
+      # Replace 'pamokos.local' with your actual domain or local server IP/name
+      - "traefik.http.routers.pamokos.rule=Host(`pamokos.eziai.eu`)"
+
+      # Assuming you have a 'web' or 'websecure' entrypoint in Traefik
+      - "traefik.http.routers.pamokos.entrypoints=websecure"
+
+      # The unified app (FastAPI + React) runs on port 8000 internally
+      - "traefik.http.services.pamokos.loadbalancer.server.port=8000"
+      
+    ports:
+      - "8085:8000"
+
+# Uncomment below if using an external Traefik network
+# networks:
+#   proxy:
+#     external: true

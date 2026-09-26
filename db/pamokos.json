@@ -1,0 +1,92 @@
+{
+  "Name1": {
+    "Pirmadienis": {
+      "1": "Maths",
+      "2": "Latin",
+      "3": "Dance",
+      "4": "Natureaasda",
+      "5": "Geography",
+      "6": "Computer",
+      "7": "",
+      "8": "asdas"
+    },
+    "Antradienis": {
+      "1": "Biology",
+      "2": "History",
+      "3": "Art",
+      "4": "PE",
+      "5": "English",
+      "6": "Music",
+      "7": ""
+    },
+    "Trečiadienis": {
+      "1": "English",
+      "2": "Geography",
+      "3": "Music",
+      "4": "Computer",
+      "5": "Physics",
+      "6": "Drama",
+      "7": ""
+    },
+    "Ketvirtadienis": {
+      "1": "Physics",
+      "2": "Chemistry",
+      "3": "Literature",
+      "4": "Sport",
+      "5": "Robotics",
+      "6": "German",
+      "7": ""
+    },
+    "Penktadienis": {
+      "1": "Maths",
+      "2": "German",
+      "3": "Robotics",
+      "4": "Drama",
+      "5": "Art",
+      "6": "History",
+      "7": ""
+    }
+  },
+  "Name2": {
+    "Pirmadienis": {
+      "1": "English",
+      "2": "History",
+      "3": "",
+      "4": "Art",
+      "5": "Biology",
+      "6": "Music"
+    },
+    "Antradienis": {
+      "1": "Maths",
+      "2": "Biology",
+      "3": "Music",
+      "4": "Geography",
+      "5": "Latin",
+      "6": "Computer"
+    },
+    "Trečiadienis": {
+      "1": "Latin",
+      "2": "Chemistry",
+      "3": "Dance",
+      "4": "Computer",
+      "5": "Nature",
+      "6": "English"
+    },
+    "Ketvirtadienis": {
+      "1": "Nature",
+      "2": "Literature",
+      "3": "Sport",
+      "4": "Robotics",
+      "5": "Physics",
+      "6": "Art"
+    },
+    "Penktadienis": {
+      "1": "German",
+      "2": "Physics",
+      "3": "Art",
+      "4": "Drama",
+      "5": "History",
+      "6": "PE"
+    }
+  }
+}
